@@ -1,4 +1,4 @@
-package com.ai.easy;
+package com.ai.medium;
 
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
