@@ -1,24 +1,9 @@
 package com.ai.medium;
 
+import com.ai.common.*;
+
 public class AddTwoNumbers {
-	/**
-	 * Definition for singly-linked list.
-	 * public class ListNode {
-	 *     int val;
-	 *     ListNode next;
-	 *     ListNode(int x) { val = x; }
-	 * }
-	 */
-	
-	class ListNode{
-		int val;
-		ListNode next;
-		ListNode(int x) {
-			val = x;
-		}
-	}
-	
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carry = 0;
         ListNode start = new ListNode(0);
         ListNode res = start;
